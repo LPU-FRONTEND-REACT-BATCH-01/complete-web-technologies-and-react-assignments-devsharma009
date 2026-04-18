@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <ul class="home-items">
+                <li class="hi"><a href="./home.html">Home</a></li>
+                <li class="hi"><a href="./home.html">Products</a></li>
+                <li class="hi"><a onclick="showCart()" >View Cart</a></li>
+            </ul>    
+        </div>
+    </nav>  
+    <!-- <button class="btn" onclick="showCart()"> View Cart</button> -->
+
+    <div class="parent-container">
+        <h2>Welcome to Our Store!</h2>
+        <p>Explore our wide range of products and add them to your cart.</p>
+        <ul class="container" id="product-list">
+
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
